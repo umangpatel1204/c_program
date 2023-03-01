@@ -13,7 +13,7 @@ main()
 		}
 		else
 		{
-			printf("\n%d ==>it is odd number 6832153",a[i]);
+			printf("\n%d ==>it is odd number",a[i]);
 			c1+=1;
 			s1+=a[i];
 		}
