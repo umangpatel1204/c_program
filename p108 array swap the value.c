@@ -9,7 +9,7 @@ main()
 	{
 		b[i]=a[i];
 	}
-	printf("\n After");
+	printf("\n Value of B is");
 	for(i=0;i<n;i++)
 	{
 		printf("\n %d",b[i]);
