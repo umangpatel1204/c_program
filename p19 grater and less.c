@@ -10,13 +10,13 @@ main()
 	printf("\nEnter the no2=>");
 	scanf("%d",&no2);
 	
-	if("no1>no2")
+	if(no1>no2)
 	{
-		printf("\nis grater than");
+		printf("\nno 1 is grater than");
 	}
 	
 	else
 	{
-		printf("\nis less than");
+		printf("\nno 2 is less than");
 	}
 }

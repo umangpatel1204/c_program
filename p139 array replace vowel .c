@@ -1,26 +1,26 @@
 #include<stdio.h>
 main()
 {
-	char name[200];
+	char alphabet[200];
 	int y,i;
 	char ch;
 	
 	printf("\nEnter the name=>");
-    gets(name);
+    gets(alphabet);
 	
-	y=strlen(name);
+	y=strlen(alphabet);
 	
 	for (i=0;i<y;i++)
 	{
-		ch=name[i];
+		ch=alphabet[i];
 		
 		if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U')
 		{
-			printf(" 0 ",ch);
+			
 		}
 		else
 		{
-			printf(" %c",ch);
+			printf("%c",ch);
 		}
 	}
 }
