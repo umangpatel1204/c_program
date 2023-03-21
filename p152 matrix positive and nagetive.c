@@ -23,10 +23,14 @@ main()
 	}
 	for(i=0;i<N;i++)
 	{
+		for(j=0;j<N;j++)
+		{
 		if(a[i][j]>0)
 		{
 			c+=1;
 		}
 	}
+}
 	printf("\nTotal positive number-->%d",c);
 }
+
