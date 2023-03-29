@@ -53,11 +53,3 @@ main()
 	printf("\n total student pass=%d",c);
 	printf("\n total student fail=%d",c1);
 }                                                                                                                              
-
-
-
-
-
-
-
-
